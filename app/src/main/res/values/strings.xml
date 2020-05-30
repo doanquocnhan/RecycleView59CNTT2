@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RecycleView59CNTT2</string>
+    <string name="th_ng_tin_mua_h_ng">Thông Tin Mua Hàng</string>
+    <string name="textview">TextView</string>
+    <string name="mua_h_ng">Mua Hàng</string>
+    <string name="x_a_b_h_ng">Xóa bỏ hàng</string>
+    <string name="gi_h_ng">Giỏ hàng</string>
+    <string name="close">Close</string>
 </resources>

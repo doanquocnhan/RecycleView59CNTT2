@@ -1,10 +1,10 @@
 package vn.edu.ntu.model;
 
-public class product {
-    String Name;;
-    int Price;
-    String Deacription;
-// getter setter
+public class Product {
+    private String Name;
+    private int Price;
+    private String Deacription;
+    // getter setter
     public String getName() {
         return Name;
     }
@@ -28,11 +28,11 @@ public class product {
     public void setDeacription(String deacription) {
         Deacription = deacription;
     }
-// constructor
-    public product() {
+    // constructor
+    public Product() {
     }
 
-    public product(String name, int price, String deacription) {
+    public Product(String name, int price, String deacription) {
         Name = name;
         Price = price;
         Deacription = deacription;

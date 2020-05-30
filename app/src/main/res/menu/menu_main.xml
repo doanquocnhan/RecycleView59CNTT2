@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item   android:title="@string/gi_h_ng"
+            android:id="@+id/mnu_cart"
+            android:icon="@drawable/ic_action_shopping_cart"
+            app:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/mnu_close"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/close" />
+</menu>

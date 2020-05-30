@@ -3,8 +3,12 @@ package vn.edu.ntu.controller;
 import java.util.ArrayList;
 import java.util.List;
 
-import vn.edu.ntu.model.product;
+import vn.edu.ntu.model.Product;
+
 
 public interface ICartController {
-    public ArrayList<product> getListProduct();
+     ArrayList<Product> getListProduct();
+    public boolean addToCart(Product p);
+    public List<Product> getShoppingCart();
+    public void clearShoppingCart();
 }

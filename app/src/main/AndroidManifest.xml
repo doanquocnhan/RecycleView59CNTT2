@@ -3,7 +3,6 @@
     package="vn.edu.ntu.recycleview59cntt2">
 
     <application
-
         android:name="vn.edu.ntu.controller.CartController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,6 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ShoppingCartActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
