@@ -138,8 +138,15 @@ public class MainActivity extends AppCompatActivity {
 
         //Kết nối một dữ liệu trong danh sách với 1 cái view Holder
         @Override
-        public void onBindViewHolder(@NonNull ProductViewHolder holder, int position) {
-//            holder.bind(listProduct).get(position);
+        public void onBindViewHolder(@NonNull final ProductViewHolder holder, int position) {
+            holder.bind(listProduct.get(position));
+
+            holder.itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(getApplicationContext(), holder.toString(), Toast.LENGTH_SHORT).show();
+                }
+            });
         }
 
         @Override
